@@ -1,0 +1,70 @@
+.divnav{
+    background-color: black;
+    color: aliceblue;
+    height: 70px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper{
+    width: 60%;
+    margin:0 auto;
+}
+h1{
+    text-align: center;
+}
+.left{
+    border: black solid;
+}
+.main{
+    border: solid black;
+    
+    max-width: 49%;
+    width: 700px;
+margin: 50px;
+}
+.mainleft{
+    border: solid black;
+    
+    max-width: 100%;
+    width: 150px;
+    height: 250px;
+margin: 50px;
+padding: 20px;
+display:inline-block;
+align-items: center;
+
+}
+
+    .up{
+        margin-top: 10px;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+    }    
+    .down{
+        margin-bottom: 10px;
+    }
+    .display{
+        display: flex;
+        justify-content: space-around;
+        margin-right: 200px;
+    }
+    .left{
+        margin-left: 10px;
+
+    }
+    .right{
+        margin-right:0px ;
+        
+    }
+    .likebtn{
+        background-color: #ffd966;
+        color: black;
+        box-shadow: 1px 5px 5px 1px black;
+        height: 30px;
+        width: 50px;
+    }
